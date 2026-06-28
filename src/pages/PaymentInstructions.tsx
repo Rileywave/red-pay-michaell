@@ -24,9 +24,9 @@ const PaymentInstructions = () => {
   const [timeLeft, setTimeLeft] = useState(SIX_MINUTES);
 
   const amount = "6,700";
-  const accountNumber = "3003732873";
-  const bankName = "KUDA";
-  const accountName = "IGHODALO DANIEL";
+  const accountNumber = "7465514532";
+  const bankName = "Carbon Bank";
+  const accountName = "MICHAEL OSELUMENOSE";
 
   // generate reference once
   const [referenceId] = useState(() => `REF${Date.now()}`);
